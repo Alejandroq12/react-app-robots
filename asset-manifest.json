@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-app-robots/static/css/main.609d0880.css",
+    "main.js": "/react-app-robots/static/js/main.1f65e53f.js",
+    "static/js/787.cb34966d.chunk.js": "/react-app-robots/static/js/787.cb34966d.chunk.js",
+    "static/media/SEGA.woff": "/react-app-robots/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/react-app-robots/index.html",
+    "main.609d0880.css.map": "/react-app-robots/static/css/main.609d0880.css.map",
+    "main.1f65e53f.js.map": "/react-app-robots/static/js/main.1f65e53f.js.map",
+    "787.cb34966d.chunk.js.map": "/react-app-robots/static/js/787.cb34966d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609d0880.css",
+    "static/js/main.1f65e53f.js"
+  ]
+}
