@@ -6,7 +6,7 @@ To run the project:
 2. Run `npm install`
 3. Run `npm start`
 
-This is a codebase for a web application that is built with React, a JavaScript library for building user interfaces. It uses ReactDOM to render the application to the DOM, and also uses the 'tachyons' library to style the application. The code imports a few different components, including App, CardList, SearchBox and Scroll, which are  custom components for this application. The code also imports a JSON data file, which is used to populate an array of "robots" that is used to display data in the CardList component. The App component uses the state to handle the searchfield and filteredRobots. It uses a lifecycle method componentDidMount() to fetch the users data from a remote API and then updates the state with the data. The application renders a search bar and a list of "robots" that can be filtered by name using the search bar.
+
 
 The technology stack for this application includes:
 
@@ -20,37 +20,13 @@ The technology stack for this application includes:
 
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./public/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Robots</b></h3>
 
 </div>
 
@@ -58,58 +34,41 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Robots ](#-robots-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment ](#deployment-)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Robots <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+This is a codebase for a web application built with React.js, a JavaScript library for constructing user interfaces. It allows users to filter robots fetched from https://robohash.org/. The primary objective was to practice the implementation of class components. Afterwards, I refactored and implemented the use of React.js Hooks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://react.dev/">React.js</a></li>
   </ul>
 </details>
 
@@ -117,11 +76,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **I fetches data from  https://robohash.org/**
+- **It is responsive.**
+- **It uses React.js Hooks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,9 +86,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://alejandroq12.github.io/react-app-robots/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +94,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -147,95 +101,61 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder or download the Zip folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
 ```
---->
+https://github.com/Alejandroq12/react-app-robots.git
+
+```
+
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd react-app-robots``**
 
 ### Install
 
-Install this project with:
+To install all dependencies, run:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
 ```
---->
+npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, follow these instructions:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- After Cloning this repo to your local machine.
+- You must use `npm start` command in terminal to run this at the localhost.
 
 ### Run tests
 
-To run tests, run the following command:
+Tests will be available soon.
 
-<!--
-Example command:
+### Deployment <a name="deployment"></a>
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using: GitHub Pages,
+- I used GitHub Pages to deploy this website.
+- For more information about deployment on GitHub Pages see "[GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Julio Quezada**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Alejandroq12](https://github.com/Alejandroq12)
+- Twitter: [@JulioAle54](https://twitter.com/JulioAle54)
+- LinkedIn: [Julio Quezada](https://www.linkedin.com/in/quezadajulio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,11 +163,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **I implement the use of React.js Hooks.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,9 +181,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give me a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -275,25 +189,17 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I want to thank all my colleagues that share knowledge with and inspired to to improve each day.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+<!-- FAQ  -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **What did you learn?**
 
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+  - I learned how to refacto the code in order to implement React.js Hooks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -301,8 +207,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [LICENSE](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
