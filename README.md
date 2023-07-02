@@ -1,28 +1,6 @@
-
-Tutorial for React
-
-To run the project: 
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
-
-
-
-The technology stack for this application includes:
-
-* React: a JavaScript library for building user interfaces.
-* ReactDOM: a package that provides a set of React-specific methods for interacting with the DOM.
-* JavaScript: a programming language used for implementing the logic of the application.
-* HTML/CSS: used for structuring and styling the application.
-* Tachyons: a CSS library for rapidly building fast-loading and highly readable websites.
-* JSON: used as data format for the robots in the application.
-* The application is also making a request to a remote API (https://jsonplaceholder.typicode.com) that is returning a JSON data.
-
 <a name="readme-top"></a>
 
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./public/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -68,6 +46,10 @@ This is a codebase for a web application built with React.js, a JavaScript libra
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://tachyons.io/">Tachyons</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://react.dev/">React.js</a></li>
   </ul>
 </details>
