@@ -18,12 +18,13 @@ function App() {
   //     .then(response=> response.json())
   //     .then(users => {this.setState({ robots: users})});
   // }
+  const [robots, setRobots] = useState([]);
+  const [searchfield, setSearchfield] = useState('');
 
   const onSearchChange = (event) => {
-    this.setState({ searchfield: event.target.value });
+    setSearchfield(event.target.value);
   };
 
-  const { robots, searchfield } = this.state;
   const filteredRobots = robots.filter((robot) => {
     return robot.name.toLowerCase().includes(searchfield.toLowerCase());
   });
